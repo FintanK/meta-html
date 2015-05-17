@@ -1,0 +1,24 @@
+{
+    "lang": "en",
+    "name": "Example Semantic HTML Document",
+    "short_name": "FintanK",
+    "icons": [{
+        "src": "icons/apple-touch-icon-60x60",
+        "sizes": "60x60",
+        "type": "image/png"
+    },  {
+        "src": "icons/apple-touch-icon-120x120",
+        "sizes": "120x120",
+        "type": "image/png",
+        "density": 2
+    }],
+    "splash_screens": [{
+        "src": "icons/largetile",
+        "sizes": "310x310"
+    }],
+    "scope": "/",
+    "start_url": "/index.html",
+    "display": "fullscreen",
+    "orientation": "landscape",
+    "theme_color": "aliceblue"
+}

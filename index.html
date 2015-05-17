@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head lang="en" prefix='og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#'>
+    <meta charset='UTF-8'/>
+
+    <!-- Startup configuration -->
+    <link rel="manifest" href="manifest.json"/>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <!-- Basic meta tags -->
+    <meta name='keywords' content='html, microdata, JSON-LD'/>
+    <meta name='description' content='150 words'/>
+    <meta name='subject' content='Example HTML Metadata'/>
+    <meta name='copyright' content='none'/>
+    <meta name='language' content='EN'/>
+    <meta name='robots' content='index,follow'/>
+    <meta name='revised' content='Sunday, May 17th, 2015, 7:15 pm'/>
+    <meta name='abstract' content=''/>
+    <meta name='topic' content=''/>
+    <meta name='summary' content=''/>
+    <meta name='Classification' content='Development'/>
+    <meta name='author' content='Fintan kearney, fintankearney@fintankearney.com'/>
+    <meta name='designer' content=''/>
+    <meta name='reply-to' content='email@hotmail.com'/>
+    <meta name='owner' content=''/>
+    <meta name='url' content='http://www.websiteaddrress.com'/>
+    <meta name='identifier-URL' content='http://www.websiteaddress.com'/>
+    <meta name='directory' content='submission'/>
+    <meta name='pagename' content='Example HTML Metadata'/>
+    <meta name='category' content=''/>
+    <meta name='coverage' content='Worldwide'/>
+    <meta name='distribution' content='Global'/>
+    <meta name='rating' content='General'/>
+    <meta name='revisit-after' content='7 days'/>
+    <meta name='subtitle' content='This is my subtitle'/>
+    <meta name='target' content='all'/>
+    <meta name='HandheldFriendly' content='True'/>
+    <meta name='MobileOptimized' content='320'/>
+    <meta name='date' content='June. 5, 2015'/>
+    <meta name='search_date' content='2015-06-05'/>
+    <meta name='DC.title' content='Example Smeantic Web Page'/>
+    <meta name='ResourceLoaderDynamicStyles' content=''/>
+    <meta name='medium' content='blog'/>
+
+    <meta http-equiv='Expires' content='0'/>
+    <meta http-equiv='Pragma' content='no-cache'/>
+    <meta http-equiv='Cache-Control' content='no-cache'/>
+    <meta http-equiv='imagetoolbar' content='no'/>
+    <meta http-equiv='x-dns-prefetch-control' content='off'/>
+
+    <!-- JSON Linked Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Article",
+      "name": "Semantic Web Page Example"
+    }
+    </script>
+
+    <!-- Set the viewport. -->
+    <meta name="viewport" content="initial-scale=1"/>
+
+    <!-- Disable automatic phone number detection. -->
+    <meta name="format-detection" content="telephone=no"/>
+
+<!-- Apple tags -->
+    <!-- Allow web app to be run in full-screen mode. -->
+    <meta name="apple-mobile-web-app-capable"
+          content="yes"/>
+
+    <!-- Make the app title different than the page title. -->
+    <meta name="apple-mobile-web-app-title"
+          content="iOS 8 web app"/>
+
+    <!-- Configure the status bar. -->
+    <meta name="apple-mobile-web-app-status-bar-style"
+          content="black"/>
+
+    <!-- ICONS -->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png"/>
+
+    <!-- iPad retina icon -->
+    <link href="apple-touch-icon-precomposed-152x152.png" sizes="152x152" rel="apple-touch-icon-precomposed"/>
+
+    <!-- iPad retina icon (iOS < 7) -->
+    <link href="apple-touch-icon-precomposed-144x144.png" sizes="144x144" rel="apple-touch-icon-precomposed"/>
+
+    <!-- iPad non-retina icon -->
+    <link href="apple-touch-icon-precomposed-76x76.png" sizes="76x76" rel="apple-touch-icon-precomposed"/>
+
+    <!-- iPad non-retina icon (iOS < 7) -->
+    <link href="apple-touch-icon-precomposed-72x72.png" sizes="72x72" rel="apple-touch-icon-precomposed"/>
+
+    <!-- iPhone 6 Plus icon -->
+    <link href="apple-touch-icon-precomposed-180x180.png" sizes="120x120" rel="apple-touch-icon-precomposed"/>
+
+    <!-- iPhone retina icon (iOS < 7) -->
+    <link href="apple-touch-icon-precomposed-114x114.png" sizes="114x114" rel="apple-touch-icon-precomposed"/>
+
+    <!-- iPhone non-retina icon (iOS < 7) -->
+    <link href="apple-touch-icon-precomposed-57x57.png" sizes="57x57" rel="apple-touch-icon-precomposed"/>
+
+    <!-- STARTUP IMAGES -->
+
+    <!-- iPad retina portrait startup image -->
+    <link href="apple-touch-startup-image-1536x2008.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+                 and (-webkit-device-pixel-ratio: 2)
+                 and (orientation: portrait)"
+          rel="apple-touch-startup-image"/>
+
+    <!-- iPad retina landscape startup image -->
+    <link href="apple-touch-startup-image-1496x2048.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+                 and (-webkit-device-pixel-ratio: 2)
+                 and (orientation: landscape)"
+          rel="apple-touch-startup-image"/>
+
+    <!-- iPad non-retina portrait startup image -->
+    <link href="apple-touch-startup-image-768x1004.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+                 and (-webkit-device-pixel-ratio: 1)
+                 and (orientation: portrait)"
+          rel="apple-touch-startup-image"/>
+
+    <!-- iPad non-retina landscape startup image -->
+    <link href="apple-touch-startup-image-748x1024.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+                 and (-webkit-device-pixel-ratio: 1)
+                 and (orientation: landscape)"
+          rel="apple-touch-startup-image"/>
+
+    <!-- iPhone 6 Plus portrait startup image -->
+    <link href="apple-touch-startup-image-1242x2148.png"
+          media="(device-width: 414px) and (device-height: 736px)
+                 and (-webkit-device-pixel-ratio: 3)
+                 and (orientation: portrait)"
+          rel="apple-touch-startup-image"/>
+
+    <!-- iPhone 6 Plus landscape startup image -->
+    <link href="apple-touch-startup-image-1182x2208.png"
+          media="(device-width: 414px) and (device-height: 736px)
+                 and (-webkit-device-pixel-ratio: 3)
+                 and (orientation: landscape)"
+          rel="apple-touch-startup-image"/>
+
+    <!-- iPhone 6 startup image -->
+    <link href="apple-touch-startup-image-750x1294.png"
+          media="(device-width: 375px) and (device-height: 667px)
+                 and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image"/>
+
+    <!-- iPhone 5 startup image -->
+    <link href="apple-touch-startup-image-640x1096.png"
+          media="(device-width: 320px) and (device-height: 568px)
+                 and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image"/>
+
+    <!-- iPhone < 5 retina startup image -->
+    <link href="apple-touch-startup-image-640x920.png"
+          media="(device-width: 320px) and (device-height: 480px)
+                 and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image"/>
+
+    <!-- iPhone < 5 non-retina startup image -->
+    <link href="apple-touch-startup-image-320x460.png"
+          media="(device-width: 320px) and (device-height: 480px)
+                 and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image"/>
+
+<!-- End of Apple meta tags -->
+
+
+    <!-- IE Meta tags-->
+    <meta http-equiv='Page-Enter' content='RevealTrans(Duration=2.0,Transition=2)'/>
+    <meta http-equiv='Page-Exit' content='RevealTrans(Duration=3.0,Transition=12)'/>
+    <meta name='mssmarttagspreventparsing' content='true'/>
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+    <meta name='msapplication-starturl' content='http://blog.reybango.com/about/'>
+    <meta name='msapplication-window' content='width=800;height=600'>
+    <meta name='msapplication-navbutton-color' content='red'>
+    <meta name='application-name' content='Front-end Developer'>
+    <meta name='msapplication-tooltip' content='Launch Developer Blog'>
+    <meta name='msapplication-task' content='name=About;action-uri=/about/;icon-uri=/images/about.ico'>
+    <meta name='msapplication-task' content='name=The Big List;action-uri=/the-big-list-of-javascript-css-and-html-development-tools-libraries-projects-and-books/;icon-uri=/images/list_links.ico'>
+    <meta name='msapplication-task' content='name=jQuery Posts;action-uri=/category/jquery/;icon-uri=/images/jquery.ico'>
+    <meta name='msapplication-task' content='name=Start Developing;action-uri=/category/javascript/;icon-uri=/images/script.ico'>
+    <meta name='msvalidate.01' content='6E3AD52DC176461A3C81DD6E98003BC9'>
+    <meta http-equiv='cleartype' content='on'>
+
+    <!-- Windows 8 tags -->
+    <meta name="application-name" content=" Contoso" />
+    <meta name="msapplication-TileColor" content=" #009900" />
+    <meta name="msapplication-square70x70logo" content="images/smalltile.png" />
+    <meta name="msapplication-square150x150logo" content="images/mediumtile.png" />
+    <meta name="msapplication-wide310x150logo" content="images/widetile.png" />
+    <meta name="msapplication-square310x310logo" content="images/largetile.png" />
+    <meta name="msapplication-notification" content="frequency=30; polling-uri=notifications/contoso1.xml;
+polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml" />
+
+    <!-- Blog catalog -->
+    <meta name='blogcatalog'/>
+
+    <!-- Dublin Core Article Meta tags -->
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+
+    <meta name="DC.Title" content="HTML Metadata example"/>
+    <meta name="DC.Description" xml:lang="en" content="A sample web page using popular metatdata formats."/>
+    <meta name="DC.Date.created" scheme="ISO8601" content="2015-05-17"/>
+    <meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2015-05-175"/>
+    <meta name="DC.Date.issued" scheme="ISO8601" content="2015-05-17"/>
+    <meta name="DC.Date.modified" scheme="ISO8601" content="2015-05-17"/>
+    <meta name="DC.Type" content="Text.Serial.Journal"/>
+    <meta name="DC.Type.articleType" content="Orginal Articles"/>
+    <meta name="DC.Source" content="Acta Medica Anatolia"/>
+    <meta name="DC.Source.ISSN" content="2148-2357"/>
+    <meta name="DC.Source.Issue" content="2"/>
+    <meta name="DC.Source.URI" content="http://dergipark.ulakbim.gov.tr/ibuama"/>
+    <meta name="DC.Source.Volume" content="2"/>
+    <meta name="DC.Subject" xml:lang="en" content="HTML, Metadata"/>
+    <meta name="DC.Contributor.Sponsor" xml:lang="en" content=""/>
+    <meta name="DC.Creator.PersonalName" content="Fintan Kearney"/>
+    <meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+    <meta name="DC.Identifier" content="5000004956"/>
+    <meta name="DC.Identifier.pageNumber" content="37-41"/>
+    <meta name="DC.Identifier.DOI" content="10.15824/actamedica.51178"/>
+    <meta name="DC.Identifier.URI" content="http://<article-url>"/>
+    <meta name="DC.Language" scheme="ISO639-1" content="en"/>
+    <meta name="DC.Rights" content="Fintan Kearney 2015"/>
+
+    <!-- Geolocation metata -->
+    <meta name="geo.position" content="53.3478, 6.2597"/>
+    <meta name="geo.placename" content="Dublin, Ireland"/>
+    <meta name="geo.region" content="dc-ie"/>
+
+
+    <!-- Open graph protocol: Test at https://developers.facebook.com/tools/debug/ -->
+    <meta property='fb:app_id' content='' />
+    <meta property='og:url' content='http://fintank.github.io/meta-html'/>
+    <meta property='og:title' content='Example HTML metadata'/>
+    <meta property='og:description' content='A sample web page using popular metadata formats.'/>
+    <meta property='og:image'content='http://fintank.github.io/meta-html/icons/mediumtile.png'/>
+    <meta property='og:image:type' content='image/png'/>
+    <meta property='og:image:width' content='150'/>
+    <meta property='og:image:height' content='150'/>
+    <meta property='og:locale' content='en_us'/>
+    <meta property='og:locale' content='en_uk'/>
+
+    <!-- Basic Twitter Card -->
+    <meta name="twitter:card" content="A sample web page using popular metadata formats." />
+    <meta name="twitter:site" content="@fintankearney" />
+    <meta name="twitter:title" content="A sample web page using popular metadata formats." />
+    <meta name="twitter:description" content="A sample web page using popular metadata formats." />
+    <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/477364091581771776/gtee9xMS_400x400.jpeg" />
+
+    <!-- Link tags -->
+    <link rel='alternate' type='application/rss+xml' title='RSS' href='/rss.xml'/>
+    <link rel='alternate' type='application/atom+xml' title='Atom 0.3' href='/feed.atom'/>
+    <link rel='shortcut icon' type='image/ico' href='/icons/favicon.ico'/>
+    <link rel='fluid-icon' type='image/png' href='icons//fluid-icon.png'/>
+    <link rel='me' type='text/html' href='http://google.com/profiles/fintank'/>
+    <link rel='shortlink' href='http://fintank.github.io/meta-html/index.html'/>
+    <link rel='wlwmanifest' href='/wlwmanifest.xml' type='application/wlwmanifest+xml'/>
+    <link rel='P3Pv1' href='/w3c/p3p.xml'/>
+    <link rel='author' href='/humans.txt' type='text/plain'/>
+    <link rel='profile' title='Microformats' href='http://microformats.org/profile/specs/'/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16"/>
+    <link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="/icons/favicon-96x96.png" sizes="96x96"/>
+    <link rel="icon" type="image/png" href="/icons/android-chrome-192x192.png" sizes="192x192"/>
+
+    <meta name="msapplication-square70x70logo" content="/icons/smalltile.png" />
+    <meta name="msapplication-square150x150logo" content="/icons/mediumtile.png" />
+    <meta name="msapplication-wide310x150logo" content="/icons/widetile.png" />
+    <meta name="msapplication-square310x310logo" content="/icons/largetile.png" />
+
+    <title></title>
+</head>
+<body>
+
+<div class="container">
+    <div class="col-xs-12 col-md-12">
+        <div itemscope itemtype="http://schema.org/Article">
+            <h1 itemprop="name">Example Article Title</h1>
+            <strong>Authors:</strong>
+    <span itemprop="author">
+      <span itemscope itemtype="http://schema.org/Person">
+        <span itemprop="familyName">
+          Kearney
+        </span>,
+        <span itemprop="givenName">
+          F.
+        </span>;
+      <span itemprop="affiliation" itemscope itemref="UniS"/>
+      </span>
+    </span>
+    <span itemscope itemtype="http://schema.org/Organization" id="UniS">
+      <span itemprop="name">
+          Example Organization
+      </span>
+    </span>
+            <div itemprop="publisher">
+                <strong>Published by organization: </strong>
+        <span itemscope itemtype="http://schema.org/Organization">
+          <span itemprop="name">
+            Example Organization
+          </span>
+        </span>
+            </div>
+            <div>
+                <strong>Issue Date: </strong>
+      <span itemprop="datePublished">
+        April.-May. 2015
+      </span>
+            </div>
+            <h2>Abstract</h2>
+            <div itemprop="description">
+                A description of the article.
+                <hr/>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-12" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+        <foaf:Person rdf:about="#danbri">
+            <foaf:name>Fintan Kearney</foaf:name><br/>
+            <foaf:homepage rdf:resource="http://fintankearney.org/">HomePage <a href="http://fintank.github.io/meta-html/">http://fintank.github.io/meta-html/</a></foaf:homepage><br/>
+            <foaf:openid rdf:resource="http://fintankearney.org/">OpenID: <a href="">none</a></foaf:openid><br/>
+            <foaf:img rdf:resource="https://pbs.twimg.com/profile_images/477364091581771776/gtee9xMS_400x400.jpeg"/>
+        </foaf:Person>
+    </div>
+    <div class="col-xs-12">
+        <a href="http://json-ld.org/" title="JSON-LD">
+            <img style="border:0px;" width="88" src="http://json-ld.org/images/json-ld-button-88.png" alt="JSON-LD-logo-88"/>
+            <img style="border:0px;" width="88" src="http://www.fernando.parreiras.nom.br/images/foaf-logo.png" alt="FOAF Icon"/>
+        </a>
+    </div>
+</div>
+</body>
+</html>
