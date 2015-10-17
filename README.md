@@ -1,4 +1,4 @@
-Article specfic metadata for web pages.
+**This repo serves as a reference for many different ways to structure semantic data in the context of HTML documents.**
 
 Pinterest Rich Pins
 https://developers.pinterest.com/rich_pins_overview/
@@ -36,11 +36,24 @@ http://iframely.com/debug
 http://www.ldodds.com/foaf/foaf-a-matic.html
 
 
-Validation Results
-Github pages link: http://fintank.github.io/meta-html/
-IFramely results: http://iframely.com/debug?uri=http%3A%2F%2Ffintank.github.io%2Fmeta-html%2F
-W3C Validator: https://validator.w3.org/check?uri=http%3A%2F%2Ffintank.github.io%2Fmeta-html%2F&charset=%28detect+automatically%29&doctype=Inline&group=0
-Structured Data Testing Tool: https://developers.google.com/structured-data/testing-tool?url=http%253A%252F%252Ffintank.github.io%252Fmeta-html%252F
+**Validation Results**
+
+
+
+Github pages link 
+http://fintank.github.io/meta-html/
+
+
+IFramely results 
+http://iframely.com/debug?uri=http%3A%2F%2Ffintank.github.io%2Fmeta-html%2F
+
+
+W3C Validator 
+https://validator.w3.org/check?uri=http%3A%2F%2Ffintank.github.io%2Fmeta-html%2F&charset=%28detect+automatically%29&doctype=Inline&group=0
+
+
+Structured Data Testing Tool 
+https://developers.google.com/structured-data/testing-tool?url=http%253A%252F%252Ffintank.github.io%252Fmeta-html%252F
 
 
 
