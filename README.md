@@ -27,6 +27,9 @@ http://schema.org/version/2.0
 W3C Markup Validation Service
 https://validator.w3.org
 
+Manifest.json
+http://www.w3.org/TR/appmanifest/
+
 Useful reference for embedding different content types
 http://getschema.org/index.php/Main_Page
 
